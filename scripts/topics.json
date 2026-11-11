@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "title": "Liste de courses saine pour la semaine : le modèle complet à copier",
+    "keyword": "liste de courses saine",
+    "search_intent": "liste de courses saine semaine",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 2,
+    "title": "15 idées de repas rapides et sains pour les soirs de semaine",
+    "keyword": "idées repas rapides",
+    "search_intent": "idées de repas rapides",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 3,
+    "title": "Meal prep débutant : 5 déjeuners prêts en 2 heures le dimanche",
+    "keyword": "meal prep débutant",
+    "search_intent": "comment faire son meal prep",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 4,
+    "title": "Manger sain pas cher : menus et courses avec 50 € par semaine",
+    "keyword": "manger sain pas cher",
+    "search_intent": "manger sainement petit budget",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 5,
+    "title": "Bowl quinoa pois chiches rôtis et légumes : la recette complète",
+    "keyword": "bowl quinoa pois chiches",
+    "search_intent": "recette buddha bowl facile",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 6,
+    "title": "Petit-déjeuner protéiné sans œufs : 10 idées faciles",
+    "keyword": "petit-déjeuner protéiné",
+    "search_intent": "petit déjeuner riche en protéines",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 7,
+    "title": "Riz complet ou riz blanc : lequel choisir au quotidien ?",
+    "keyword": "riz complet ou riz blanc",
+    "search_intent": "différence riz complet riz blanc",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 8,
+    "title": "Lire une étiquette nutritionnelle en 5 étapes simples",
+    "keyword": "lire une étiquette nutritionnelle",
+    "search_intent": "comment lire étiquette alimentaire",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 9,
+    "title": "Batch cooking végétarien : un menu de la semaine pour 4 personnes",
+    "keyword": "batch cooking végétarien",
+    "search_intent": "batch cooking végétarien semaine",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 10,
+    "title": "Overnight oats : la recette de base et 6 variantes",
+    "keyword": "overnight oats",
+    "search_intent": "recette overnight oats",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 11,
+    "title": "12 aliments sains et pas chers à toujours avoir dans ses placards",
+    "keyword": "aliments sains pas chers",
+    "search_intent": "aliments sains pas chers liste",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 12,
+    "title": "Légumes surgelés ou frais : le comparatif nutrition et budget",
+    "keyword": "légumes surgelés ou frais",
+    "search_intent": "légumes surgelés aussi bons que frais",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 13,
+    "title": "Lunch box saine pour le bureau : 7 idées qui tiennent jusqu'à midi",
+    "keyword": "lunch box saine",
+    "search_intent": "idées lunch box bureau",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 14,
+    "title": "Soupe de lentilles corail au lait de coco en 25 minutes",
+    "keyword": "soupe lentilles corail",
+    "search_intent": "soupe lentilles corail lait de coco",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 15,
+    "title": "Menu équilibré de la semaine : un exemple complet sur 7 jours",
+    "keyword": "menu équilibré semaine",
+    "search_intent": "exemple menu équilibré semaine",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 16,
+    "title": "Assiette équilibrée : la méthode simple pour composer ses repas",
+    "keyword": "assiette équilibrée",
+    "search_intent": "comment faire une assiette équilibrée",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 17,
+    "title": "Collation saine : 15 idées pour tenir jusqu'au repas",
+    "keyword": "collation saine",
+    "search_intent": "idées collation saine",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 18,
+    "title": "Marché ou supermarché : où faire ses courses moins cher ?",
+    "keyword": "marché ou supermarché",
+    "search_intent": "marché moins cher que supermarché",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 19,
+    "title": "Salade de pâtes au thon et crudités : la recette complète",
+    "keyword": "salade de pâtes thon",
+    "search_intent": "salade de pâtes thon facile",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 20,
+    "title": "Recettes anti-gaspi : 10 idées pour utiliser les restes du frigo",
+    "keyword": "recettes anti-gaspi",
+    "search_intent": "que faire avec les restes",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 21,
+    "title": "Conservation des plats préparés : combien de temps au frigo ?",
+    "keyword": "conservation plats préparés",
+    "search_intent": "combien de temps garder un plat au frigo",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 22,
+    "title": "Curry de pois chiches et épinards facile et économique",
+    "keyword": "curry pois chiches",
+    "search_intent": "curry de pois chiches facile",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 23,
+    "title": "Légumes de saison en hiver : la liste mois par mois",
+    "keyword": "légumes de saison hiver",
+    "search_intent": "quels légumes en hiver",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 24,
+    "title": "Protéines végétales : où les trouver et comment les associer",
+    "keyword": "protéines végétales",
+    "search_intent": "sources de protéines végétales",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 25,
+    "title": "Flocons d'avoine ou muesli : lequel choisir pour le petit-déjeuner ?",
+    "keyword": "flocons d'avoine ou muesli",
+    "search_intent": "muesli ou flocons d'avoine",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 26,
+    "title": "Dîner léger : 10 idées rassasiantes pour le soir",
+    "keyword": "dîner léger",
+    "search_intent": "idées dîner léger et rapide",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 27,
+    "title": "Poêlée poulet légumes au wok en 20 minutes",
+    "keyword": "poêlée poulet légumes",
+    "search_intent": "wok poulet légumes rapide",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 28,
+    "title": "Manger sain étudiant : le guide pratique et pas cher",
+    "keyword": "manger sain étudiant",
+    "search_intent": "bien manger quand on est étudiant",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 29,
+    "title": "Erreurs de courses : 8 pièges fréquents et comment les éviter",
+    "keyword": "erreurs de courses",
+    "search_intent": "astuces faire ses courses",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 30,
+    "title": "Fait maison ou plats préparés : le comparatif prix et qualité",
+    "keyword": "fait maison ou plats préparés",
+    "search_intent": "plats préparés vs fait maison",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 31,
+    "title": "Préparer ses repas à l'avance : 3 jours de repas en une session",
+    "keyword": "préparer ses repas à l'avance",
+    "search_intent": "préparer repas à l'avance semaine",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 32,
+    "title": "Pancakes banane avoine : la recette en 3 ingrédients",
+    "keyword": "pancakes banane avoine",
+    "search_intent": "pancakes banane flocons d'avoine",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 33,
+    "title": "Bien s'hydrater au quotidien : combien boire et comment y penser",
+    "keyword": "bien s'hydrater",
+    "search_intent": "combien de litres d'eau par jour",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 34,
+    "title": "Recettes rapides aux œufs : 10 repas prêts en 15 minutes",
+    "keyword": "recettes rapides aux œufs",
+    "search_intent": "recette rapide avec des oeufs",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 35,
+    "title": "Quelle huile choisir : olive, colza ou tournesol selon l'usage",
+    "keyword": "quelle huile choisir",
+    "search_intent": "quelle huile pour cuisiner",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 36,
+    "title": "Organiser son frigo pour moins gaspiller : la méthode simple",
+    "keyword": "organiser son frigo",
+    "search_intent": "bien ranger son frigo",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 37,
+    "title": "Gratin de légumes léger sans crème",
+    "keyword": "gratin de légumes léger",
+    "search_intent": "gratin légumes sans crème",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 38,
+    "title": "Repas pas cher : 7 dîners complets à moins de 2 € par personne",
+    "keyword": "repas pas cher",
+    "search_intent": "idées repas pas cher",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 39,
+    "title": "Planifier ses menus de la semaine en 20 minutes",
+    "keyword": "planifier ses menus",
+    "search_intent": "comment planifier ses repas de la semaine",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 40,
+    "title": "Yaourt nature ou aux fruits : le comparatif sucre et prix",
+    "keyword": "yaourt nature ou aux fruits",
+    "search_intent": "yaourt aux fruits sucre",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 41,
+    "title": "Chili sin carne aux haricots rouges : la recette batch cooking",
+    "keyword": "chili sin carne",
+    "search_intent": "chili sin carne facile",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 42,
+    "title": "Cuisiner les légumineuses facilement : le guide complet",
+    "keyword": "cuisiner les légumineuses",
+    "search_intent": "comment cuire les légumineuses",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 43,
+    "title": "Petit-déjeuner sain et rapide : 12 idées pour la semaine",
+    "keyword": "petit-déjeuner sain et rapide",
+    "search_intent": "idées petit déjeuner sain",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 44,
+    "title": "Pain complet ou pain blanc : lequel acheter ?",
+    "keyword": "pain complet ou pain blanc",
+    "search_intent": "pain complet meilleur que pain blanc",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 45,
+    "title": "Saumon au four, patate douce et brocoli sur une seule plaque",
+    "keyword": "saumon au four patate douce",
+    "search_intent": "saumon patate douce four",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 46,
+    "title": "Réduire le sucre au quotidien : 10 astuces sans frustration",
+    "keyword": "réduire le sucre",
+    "search_intent": "comment manger moins de sucre",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 47,
+    "title": "Courses en ligne ou en magasin : laquelle fait économiser ?",
+    "keyword": "courses en ligne ou en magasin",
+    "search_intent": "drive moins cher que magasin",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 48,
+    "title": "Cuisiner pour une personne sans gaspiller : le guide",
+    "keyword": "cuisiner pour une personne",
+    "search_intent": "recettes pour une personne",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 49,
+    "title": "Wrap poulet houmous et crudités pour le déjeuner",
+    "keyword": "wrap poulet houmous",
+    "search_intent": "wrap poulet recette facile",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 50,
+    "title": "Épices pour cuisine saine : 10 indispensables pour varier les plats",
+    "keyword": "épices cuisine saine",
+    "search_intent": "quelles épices avoir en cuisine",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 51,
+    "title": "Fruits et légumes de saison en été : liste et idées de repas",
+    "keyword": "fruits et légumes de saison été",
+    "search_intent": "légumes de saison été",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 52,
+    "title": "Manger équilibré en télétravail : routines et idées de repas",
+    "keyword": "manger équilibré en télétravail",
+    "search_intent": "que manger en télétravail",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 53,
+    "title": "Quinoa, boulgour ou semoule : quel féculent choisir ?",
+    "keyword": "quinoa boulgour semoule",
+    "search_intent": "différence quinoa boulgour",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 54,
+    "title": "Omelette aux légumes : la recette vide-frigo en 10 minutes",
+    "keyword": "omelette aux légumes",
+    "search_intent": "omelette légumes facile",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 55,
+    "title": "Repas en famille rapides et sains : 10 idées que les enfants aiment",
+    "keyword": "repas en famille rapides",
+    "search_intent": "idées repas famille rapide",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 56,
+    "title": "Faire une liste de courses efficace en 5 étapes",
+    "keyword": "faire une liste de courses",
+    "search_intent": "comment faire sa liste de courses",
+    "type": "guide",
+    "published": null
+  },
+  {
+    "id": 57,
+    "title": "Smoothie ou jus de fruits : lequel choisir le matin ?",
+    "keyword": "smoothie ou jus de fruits",
+    "search_intent": "smoothie vs jus de fruits",
+    "type": "comparatif",
+    "published": null
+  },
+  {
+    "id": 58,
+    "title": "Dahl de lentilles et riz : un plat complet et économique",
+    "keyword": "dahl de lentilles",
+    "search_intent": "recette dahl lentilles",
+    "type": "recette",
+    "published": null
+  },
+  {
+    "id": 59,
+    "title": "Placard sain : la liste de base pour bien démarrer",
+    "keyword": "placard sain",
+    "search_intent": "quoi avoir dans ses placards",
+    "type": "liste",
+    "published": null
+  },
+  {
+    "id": 60,
+    "title": "Manger plus de légumes : 12 astuces faciles au quotidien",
+    "keyword": "manger plus de légumes",
+    "search_intent": "astuces manger plus de légumes",
+    "type": "liste",
+    "published": null
+  }
+]

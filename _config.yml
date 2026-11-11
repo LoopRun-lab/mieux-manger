@@ -1,0 +1,35 @@
+# --- Identité du site --------------------------------------------------------
+title: "Mieux manger au quotidien"
+description: "Idées de repas, meal prep, listes de courses saines et pas chères : des conseils simples pour mieux manger sans se compliquer la vie."
+lang: fr_FR
+locale: fr_FR
+author: "L'équipe Mieux manger au quotidien"
+timezone: Europe/Paris
+
+# À ADAPTER (voir README) : https://<votre-user>.github.io et /<nom-du-repo>
+url: "https://looprun-lab.github.io"
+baseurl: "/mieux-manger"
+
+# --- Thème et plugins (tous supportés nativement par GitHub Pages) ----------
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:day/:title/
+show_excerpts: true
+
+minima:
+  date_format: "%d/%m/%Y"
+
+header_pages:
+  - about.md
+
+# Fichiers à ne pas publier sur le site
+exclude:
+  - scripts/
+  - README.md
+  - requirements.txt
+  - _preview/
+  - .github/

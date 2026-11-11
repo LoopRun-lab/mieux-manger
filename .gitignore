@@ -1,0 +1,6 @@
+_site/
+_preview/
+.jekyll-cache/
+.sass-cache/
+__pycache__/
+.env
