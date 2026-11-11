@@ -1,0 +1,48 @@
+---
+layout: default
+---
+{%- assign latest = site.posts.first -%}
+<section class="hero">
+  <div class="wrap hero__inner">
+    <p class="eyebrow">Nouvel article tous les deux jours</p>
+    <h1 class="hero__title">Mieux manger,<br><em>sans se compliquer la vie.</em></h1>
+    <p class="hero__lead">Idées de repas rapides, meal prep, listes de courses saines et pas chères. Des conseils concrets, avec les quantités, les étapes et les prix.</p>
+    <div class="hero__actions">
+      {%- if latest -%}<a class="btn btn--primary" href="{{ latest.url | relative_url }}">Lire le dernier article</a>{%- endif -%}
+      <a class="btn btn--ghost" href="{{ '/feed.xml' | relative_url }}">Suivre le blog (RSS)</a>
+    </div>
+    <ul class="hero__pills" aria-label="Thèmes">
+      <li>🍲 Recettes</li><li>🥡 Meal prep</li><li>🛒 Courses malines</li><li>⚖️ Comparatifs</li>
+    </ul>
+  </div>
+  <div class="hero__plate" aria-hidden="true">
+    <span>🥕</span><span>🥑</span><span>🍋</span><span>🫘</span><span>🥦</span><span>🍅</span>
+  </div>
+</section>
+
+<div class="wrap">
+  {% include protokole-banner.html style="wide" seed=0 %}
+
+  <section id="articles" class="section">
+    <div class="section__head">
+      <h2>Derniers articles</h2>
+      <p>{{ site.posts.size }} article{% if site.posts.size > 1 %}s{% endif %} publié{% if site.posts.size > 1 %}s{% endif %}, et un nouveau tous les deux jours.</p>
+    </div>
+    <div class="grid">
+      {%- for post in site.posts -%}
+        {% include post-card.html post=post %}
+        {%- if forloop.index == 6 -%}
+          </div>{% include protokole-banner.html style="wide" seed=2 %}<div class="grid">
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </section>
+
+  <section class="follow">
+    <div>
+      <h2>Ne ratez aucune idée de repas</h2>
+      <p>Un nouvel article tous les deux jours : recettes simples, menus de la semaine, astuces pour payer moins cher. Abonnez-vous au flux RSS avec votre lecteur préféré (Feedly, Inoreader, NetNewsWire…).</p>
+    </div>
+    <a class="btn btn--primary" href="{{ '/feed.xml' | relative_url }}">S'abonner au flux RSS</a>
+  </section>
+</div>

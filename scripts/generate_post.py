@@ -240,11 +240,12 @@ def validate(article: dict, topic: dict) -> list[str]:
 
 # -------------------------------------------------------------------- écriture
 
-def render_post(article: dict, now: datetime) -> str:
+def render_post(article: dict, topic: dict, now: datetime) -> str:
     tags = ", ".join(yaml_str(t) for t in article["tags"])
     return (
         "---\n"
         "layout: post\n"
+        f"type: {topic['type']}\n"
         f"title: {yaml_str(article['title'])}\n"
         f"date: {now.strftime('%Y-%m-%d %H:%M:%S %z')}\n"
         f"description: {yaml_str(article['description'])}\n"
@@ -299,7 +300,7 @@ def main() -> int:
         print("ÉCHEC : l'article ne respecte pas les règles. Rien n'est publié.")
         return 1
 
-    content = render_post(article, now)
+    content = render_post(article, topic, now)
     filename = f"{today}-{slugify(article['title'])}.md"
     print(f"  OK : {count_words(article['body'])} mots, {len(article['description'])} car. de description")
 

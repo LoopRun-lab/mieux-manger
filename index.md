@@ -1,7 +1,5 @@
 ---
 layout: home
-title: Accueil
-list_title: Derniers articles
+title: Mieux manger sans se compliquer la vie
+description: "Idées de repas rapides, meal prep, listes de courses saines et pas chères : un nouvel article pratique tous les deux jours."
 ---
-
-Des idées de repas rapides, du meal prep, des listes de courses équilibrées et des astuces pour bien manger sans exploser son budget. Un nouvel article tous les deux jours.

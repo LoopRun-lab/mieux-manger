@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post__header">
+    <div class="wrap wrap--narrow">
+      <h1 class="post__title">{{ page.title | escape }}</h1>
+    </div>
+  </header>
+  <div class="wrap wrap--narrow post__content">
+    {{ content }}
+  </div>
+  <div class="wrap wrap--narrow">
+    {% include protokole-banner.html style="card" seed=1 %}
+  </div>
+</article>

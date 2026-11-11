@@ -1,5 +1,6 @@
 ---
 layout: post
+type: liste
 title: "Liste de courses saine pour la semaine : le modèle complet à copier"
 date: 2026-11-11 20:08:31 +0100
 description: "Liste de courses saine pour la semaine : un modèle complet pour 2 personnes, avec quantités, prix indicatifs et idées de repas. Prêt à copier."

@@ -1,0 +1,16 @@
+{%- comment -%}
+  Bannière Protokole. Paramètres : style = "wide" | "inline" | "card", seed = nombre pour choisir le message.
+{%- endcomment -%}
+{%- assign banners = site.data.protokole.banners -%}
+{%- assign idx = include.seed | default: 0 | modulo: banners.size -%}
+{%- assign b = banners[idx] -%}
+{%- assign style = include.style | default: "wide" -%}
+<aside class="pk pk--{{ style }}" aria-label="Publicité Protokole">
+  <div class="pk__body">
+    <span class="pk__badge">Protokole</span>
+    <p class="pk__kicker">{{ b.kicker }}</p>
+    <p class="pk__title">{{ b.title }}</p>
+    <p class="pk__text">{{ b.text }}</p>
+  </div>
+  <a class="pk__cta" href="{{ site.data.protokole.url }}/?utm_source=blog-mieux-manger&amp;utm_medium=banniere-{{ style }}&amp;utm_campaign={{ b.campaign }}" target="_blank" rel="noopener">{{ b.cta }} <span aria-hidden="true">→</span></a>
+</aside>

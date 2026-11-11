@@ -1,0 +1,14 @@
+{%- assign p = include.post -%}
+{%- include type-meta.html type=p.type -%}
+{%- assign words = p.content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 200 | plus: 1 -%}
+<article class="card card--{{ p.type | default: 'liste' }}">
+  <a class="card__link" href="{{ p.url | relative_url }}">
+    <div class="card__visual" aria-hidden="true"><span>{{ t_emoji }}</span></div>
+    <div class="card__body">
+      <p class="card__meta"><span class="chip">{{ t_label }}</span> {{ minutes }} min de lecture</p>
+      <h3 class="card__title">{{ p.title | escape }}</h3>
+      <p class="card__excerpt">{{ p.description | default: p.excerpt | strip_html | truncate: 140 }}</p>
+    </div>
+  </a>
+</article>

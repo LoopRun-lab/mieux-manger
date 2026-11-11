@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{%- include type-meta.html type=page.type -%}
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 200 | plus: 1 -%}
+{%- assign seed = page.date | date: "%j" | plus: 0 -%}
+<article class="post">
+  <header class="post__header post__header--{{ page.type | default: 'liste' }}">
+    <div class="wrap wrap--narrow">
+      <a class="post__back" href="{{ '/' | relative_url }}">← Tous les articles</a>
+      <p class="post__meta"><span class="chip">{{ t_emoji }} {{ t_label }}</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time> · {{ minutes }} min de lecture</p>
+      <h1 class="post__title">{{ page.title | escape }}</h1>
+      {%- if page.description -%}<p class="post__lead">{{ page.description | escape }}</p>{%- endif -%}
+    </div>
+  </header>
+
+  <div class="wrap wrap--narrow post__content">
+    {%- assign parts = content | split: "<h2" -%}
+    {%- for part in parts -%}
+      {%- if forloop.index > 1 -%}<h2{%- endif -%}{{ part }}
+      {%- if forloop.index == 2 and parts.size > 3 -%}
+        {% include protokole-banner.html style="inline" seed=seed %}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- if page.tags.size > 0 -%}
+    <p class="post__tags">{% for tag in page.tags %}<span>#{{ tag | replace: " ", "-" }}</span>{% endfor %}</p>
+    {%- endif -%}
+  </div>
+
+  <div class="wrap wrap--narrow">
+    {%- assign seed2 = seed | plus: 1 -%}
+    {% include protokole-banner.html style="card" seed=seed2 %}
+  </div>
+</article>
+
+{%- assign others = site.posts | where_exp: "p", "p.url != page.url" -%}
+{%- if others.size > 0 -%}
+<section class="wrap section">
+  <div class="section__head"><h2>À lire aussi</h2></div>
+  <div class="grid">
+    {%- for post in others limit: 3 -%}{% include post-card.html post=post %}{%- endfor -%}
+  </div>
+</section>
+{%- endif -%}

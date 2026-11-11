@@ -8,6 +8,8 @@ Blog Jekyll hébergé sur GitHub Pages. Un article est rédigé par l'API Anthro
 |---|---|
 | `_config.yml` | Configuration Jekyll (thème minima, plugins sitemap / seo-tag / feed) |
 | `index.md`, `about.md` | Page d'accueil et page « À propos » |
+| `_layouts/`, `_includes/`, `assets/css/blog.css` | Design du site (accueil, articles, bannières) |
+| `_data/protokole.yml` | Textes des bannières Protokole (modifiables sans toucher au code) |
 | `_posts/` | Articles publiés (un fichier Markdown par jour) |
 | `scripts/topics.json` | 60 sujets SEO ; `published` est rempli quand un sujet est publié |
 | `scripts/generate_post.py` | Choisit le sujet, appelle l'API, vérifie l'article, l'écrit |

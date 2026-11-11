@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  {%- feed_meta -%}
+  <meta name="theme-color" content="#1f4d3a">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥗</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+</head>
+<body class="layout-{{ page.layout }}">
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="{{ '/' | relative_url }}"><span class="brand__logo" aria-hidden="true">🥗</span><span>{{ site.title }}</span></a>
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}#articles">Articles</a>
+        <a href="{{ '/a-propos/' | relative_url }}">À propos</a>
+        <a class="nav__pk" href="{{ site.data.protokole.url }}/?utm_source=blog-mieux-manger&amp;utm_medium=menu&amp;utm_campaign=header" target="_blank" rel="noopener">Planifier mes repas</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__grid">
+      <div>
+        <p class="brand brand--footer"><span aria-hidden="true">🥗</span> {{ site.title }}</p>
+        <p>{{ site.description }}</p>
+      </div>
+      <div>
+        <p class="site-footer__title">Suivre le blog</p>
+        <ul>
+          <li><a href="{{ '/feed.xml' | relative_url }}">Flux RSS</a> : un nouvel article tous les deux jours</li>
+          <li><a href="{{ '/a-propos/' | relative_url }}">À propos</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="site-footer__title">Planifier ses repas</p>
+        <p>Menus de la semaine et liste de courses comparée dans quatre enseignes : <a href="{{ site.data.protokole.url }}/?utm_source=blog-mieux-manger&amp;utm_medium=footer&amp;utm_campaign=footer" target="_blank" rel="noopener">protokole.fr</a></p>
+      </div>
+    </div>
+    <p class="wrap site-footer__legal">Informations générales, qui ne remplacent pas l'avis d'un professionnel de santé. © {{ site.time | date: '%Y' }} {{ site.title }}</p>
+  </footer>
+
+  {%- if page.layout == "post" -%}
+  <div class="pk-sticky" id="pk-sticky" hidden>
+    <p><strong>Vos repas de la semaine, au meilleur prix.</strong> <span>Menus sains et courses comparées dans 4 enseignes.</span></p>
+    <a class="pk-sticky__cta" href="{{ site.data.protokole.url }}/?utm_source=blog-mieux-manger&amp;utm_medium=barre&amp;utm_campaign=sticky" target="_blank" rel="noopener">Essayer Protokole</a>
+    <button class="pk-sticky__close" type="button" aria-label="Fermer">×</button>
+  </div>
+  <script>
+    (function () {
+      var bar = document.getElementById('pk-sticky'), KEY = 'pk-sticky-closed';
+      try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
+      var shown = false;
+      window.addEventListener('scroll', function () {
+        if (shown) return;
+        var h = document.documentElement;
+        if ((h.scrollTop + h.clientHeight) / h.scrollHeight > 0.35) { bar.hidden = false; shown = true; }
+      }, { passive: true });
+      bar.querySelector('.pk-sticky__close').addEventListener('click', function () {
+        bar.hidden = true;
+        try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+      });
+    })();
+  </script>
+  {%- endif -%}
+</body>
+</html>

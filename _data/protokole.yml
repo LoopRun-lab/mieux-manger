@@ -1,0 +1,24 @@
+# Messages des bannières Protokole. Repris du site protokole.fr, sans chiffre inventé.
+# Une bannière différente est choisie selon l'article, pour varier.
+url: https://protokole.fr
+banners:
+  - kicker: "Votre frigo est vide ?"
+    title: "Votre semaine de repas sains, prête en un clic"
+    text: "Protokole compose vos déjeuners et dîners de la semaine, puis compare le même panier dans quatre enseignes."
+    cta: "Créer ma semaine"
+    campaign: semaine
+  - kicker: "Votre frigo est plein ?"
+    title: "Prenez vos ingrédients en photo, découvrez votre plat"
+    text: "Protokole vous propose une recette avec ce que vous avez déjà. Un essai offert."
+    cta: "Trouve-moi un plat"
+    campaign: photo-frigo
+  - kicker: "Le même panier. Quatre prix."
+    title: "Mangez sain pour moins cher, sans réfléchir à vos courses"
+    text: "Une liste de courses complète, chiffrée dans quatre enseignes, avec uniquement des produits simples à cuisiner."
+    cta: "Comparer mon panier"
+    campaign: panier
+  - kicker: "Cuisinez une fois, mangez deux fois"
+    title: "Sept dîners. Sept déjeuners déjà prêts."
+    text: "Chaque soir, vous cuisinez un peu plus : le reste fait le déjeuner du lendemain. Les menus suivent les repères nutritionnels officiels."
+    cta: "Voir ma semaine type"
+    campaign: meal-prep

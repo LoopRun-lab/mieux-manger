@@ -1,0 +1,6 @@
+{%- case include.type -%}
+  {%- when "recette" -%}{%- assign t_emoji = "🍲" -%}{%- assign t_label = "Recette" -%}
+  {%- when "guide" -%}{%- assign t_emoji = "🧭" -%}{%- assign t_label = "Guide" -%}
+  {%- when "comparatif" -%}{%- assign t_emoji = "⚖️" -%}{%- assign t_label = "Comparatif" -%}
+  {%- else -%}{%- assign t_emoji = "📝" -%}{%- assign t_label = "Liste" -%}
+{%- endcase -%}
